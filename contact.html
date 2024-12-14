@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="contact.css">
+   <title>Contact Me</title>
+</head>
+<body>
+   <div id="mood">
+      <button id="dark-mood" onclick = "darkMood()">🌚</button>
+      <button id="ligth-mood" onclick = "ligthMood()">🌞</button>
+   </div>
+   <header>
+      <div class="container">
+         <a href="index.html" class="one">Fady Gabriel </a>
+         <span class="toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+         </span> 
+         <nav class="menu">
+            <span class="close">x</span>
+            <a href="index.html">main page</a>
+            <a href="resume.html" target="_self">Resume</a>
+            <a href="projects.html" target="_self">Projects</a>
+            <a href="contact.html" target="_self">Contact</a>
+         </nav>
+         <nav>
+            <ul>
+               <li> <a href="resume.html" target="_self">Resume</a></li>
+               <li> <a href="projects.html" target="_self">Projects</a> </li>
+               <li> <a href="contact.html" target="_self">Contact</a></li>
+            </ul>
+         </nav>
+      </div>
+   </header>
+
+   <div class="grid">
+      <div class="first-grid">
+         <div>
+            <h1>Contact</h1>
+            <p>Looking forward to hearing from you</p>
+         </div>
+         <div>
+            <h3>Phone</h3>
+            <p>+201278558947</p>
+         </div>
+         <div>
+            <h3>Gmail</h3>
+            <a href="gmail">fadyghobrial123@gmail.com</a>
+         </div>
+      </div>
+      <div class="second-grid">
+
+         <form action="" method="get">
+            <label for="first">First Name</label> <br>
+            <input type="text" required placeholder="First Name" name="fn" autofocus id="first"> <br>
+            <label for="second">Second Name</label> <br>
+            <input type="text" required placeholder="Second Name" name="sn" id="second"> <br>
+            <label for="ma">Email</label> <br>
+            <input type="email" required placeholder="Your Email" name="mail" id="ma"> <br>
+            <label for="subject">Subject</label> <br>
+            <input type="text" name="sub" id="subject"> <br>
+            <label for="message">Message</label> <br>
+            <textarea type="text" class="sp" name="mess" id="message"></textarea> <br>  
+            <input type="reset" id="reset" class="test-1">
+            <br>
+            <button class="test-1">Submit</button>
+         </form>
+      </div>
+   </div>
+   <hr>
+   <div class="page"></div>
+   <button class="up">up</button>
+
+   <footer>
+      <div>
+         <h2>Phone</h2>
+         <p>+201278558947</p>
+      </div>
+      <div>
+         <h2>Gmail</h2>
+         <a href="gmail">fadyghobrial123@gmail.com</a>
+      </div>
+   </footer>
+   <script src="my.js"></script>
+</body>
+</html>
