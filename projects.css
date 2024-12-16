@@ -165,19 +165,19 @@ h1 {
 }
 @keyframes p1 {
    0% {
-      background-image: url('/My_Projects_photos/p1/1.png');
+      background-image: url('./My_Projects_photos/p1/1.png');
    }
    30% {
-      background-image: url('/My_Projects_photos/p1/2.png');
+      background-image: url('./My_Projects_photos/p1/2.png');
    }
    60% {
-      background-image: url('/My_Projects_photos/p1/3.png');
+      background-image: url('./My_Projects_photos/p1/3.png');
    }
    90% {
-      background-image: url('/My_Projects_photos/p1/4.png');
+      background-image: url('./My_Projects_photos/p1/4.png');
    }
    100% {
-      background-image: url('/My_Projects_photos/p1/5.png');
+      background-image: url('./My_Projects_photos/p1/5.png');
    }
 }
 .p2 {
@@ -185,16 +185,16 @@ h1 {
 }
 @keyframes p2 {
    0% {
-      background-image: url('/My_Projects_photos/p2/1.png');
+      background-image: url('./My_Projects_photos/p2/1.png');
    }
    33% {
-      background-image: url('/My_Projects_photos/p2/2.png');
+      background-image: url('./My_Projects_photos/p2/2.png');
    }
    66% {
-      background-image: url('/My_Projects_photos/p2/3.png');
+      background-image: url('./My_Projects_photos/p2/3.png');
    }
    100% {
-      background-image: url('/My_Projects_photos/p2/4.png');
+      background-image: url('./My_Projects_photos/p2/4.png');
    }
 }
 .p3 {
@@ -202,10 +202,10 @@ h1 {
 }
 @keyframes p3 {
    0% {
-      background-image: url('/My_Projects_photos/p3/1.png');
+      background-image: url('./My_Projects_photos/p3/1.png');
    }
    100% {
-      background-image: url('/My_Projects_photos/p3/2.png');
+      background-image: url('./My_Projects_photos/p3/2.png');
    }
 }
 .p4 {
@@ -213,19 +213,19 @@ h1 {
 }
 @keyframes p4 {
    0% {
-      background-image: url('/My_Projects_photos/p4/1.png');
+      background-image: url('./My_Projects_photos/p4/1.png');
    }
    30% {
-      background-image: url('/My_Projects_photos/p4/2.png');
+      background-image: url('./My_Projects_photos/p4/2.png');
    }
    60% {
-      background-image: url('/My_Projects_photos/p4/3.png');
+      background-image: url('./My_Projects_photos/p4/3.png');
    }
    90% {
-      background-image: url('/My_Projects_photos/p4/6.png');
+      background-image: url('./My_Projects_photos/p4/6.png');
    }
    100% {
-      background-image: url('/My_Projects_photos/p4/5.png');
+      background-image: url('./My_Projects_photos/p4/5.png');
    }
 }
 .p5 {
@@ -233,16 +233,16 @@ h1 {
 }
 @keyframes p5 {
    0% {
-      background-image: url('/My_Projects_photos/p2/\(1\).png');
+      background-image: url('./My_Projects_photos/p2/\(1\).png');
    }
    33% {
-      background-image: url('/My_Projects_photos/p2/\(2\).png');
+      background-image: url('./My_Projects_photos/p2/\(2\).png');
    }
    66% {
-      background-image: url('/My_Projects_photos/p2/\(3\).png');
+      background-image: url('./My_Projects_photos/p2/\(3\).png');
    }
    100% {
-      background-image: url('/My_Projects_photos/p2/\(4\).png');
+      background-image: url('./My_Projects_photos/p2/\(4\).png');
    }
 }
 .p6 {
@@ -250,16 +250,16 @@ h1 {
 }
 @keyframes p6 {
    0% {
-      background-image: url('/My_Projects_photos/p6/\(1\).png');
+      background-image: url('./My_Projects_photos/p6/\(1\).png');
    }
    33% {
-      background-image: url('/My_Projects_photos/p6/\(2\).png');
+      background-image: url('./My_Projects_photos/p6/\(2\).png');
    }
    66% {
-      background-image: url('/My_Projects_photos/p6/\(3\).png');
+      background-image: url('./My_Projects_photos/p6/\(3\).png');
    }
    100% {
-      background-image: url('/My_Projects_photos/p6/\(4\).png');
+      background-image: url('./My_Projects_photos/p6/\(4\).png');
    }
 }
 .p7 {
@@ -267,16 +267,16 @@ h1 {
 }
 @keyframes p7 {
    0% {
-      background-image: url('/My_Projects_photos/p7/1.png');
+      background-image: url('./My_Projects_photos/p7/1.png');
    }
    33% {
-      background-image: url('/My_Projects_photos/p7/2.png');
+      background-image: url('./My_Projects_photos/p7/2.png');
    }
    66% {
-      background-image: url('/My_Projects_photos/p7/3.png');
+      background-image: url('./My_Projects_photos/p7/3.png');
    }
    100% {
-      background-image: url('/My_Projects_photos/p7/4.png');
+      background-image: url('./My_Projects_photos/p7/4.png');
    }
 }
 .p8 {
@@ -284,16 +284,16 @@ h1 {
 }
 @keyframes p8 {
    0% {
-      background-image: url('/My_Projects_photos/p8/1.png');
+      background-image: url('./My_Projects_photos/p8/1.png');
    }
    33% {
-      background-image: url('/My_Projects_photos/p8/2.png');
+      background-image: url('./My_Projects_photos/p8/2.png');
    }
    66% {
-      background-image: url('/My_Projects_photos/p8/3.png');
+      background-image: url('./My_Projects_photos/p8/3.png');
    }
    100% {
-      background-image: url('/My_Projects_photos/p8/4.png');
+      background-image: url('./My_Projects_photos/p8/4.png');
    }
 }
 
