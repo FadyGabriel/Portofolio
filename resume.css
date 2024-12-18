@@ -199,6 +199,45 @@ header div .one::before {
    font-weight: bold;
 }
 
+.myCV {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 40px;
+   animation: show 3s linear 2s forwards;
+   position: relative;
+   left: -100%;
+}
+@keyframes show {
+   from {
+      left: -100%;
+   }
+   to {
+      left: 0;
+   }
+}
+.myCV p {
+   font-family: monospace;
+   font-size: 25px;
+   color: chartreuse;
+   margin-bottom: 40px;
+   text-align: center;
+}
+.myCV button {
+   min-width: 30vw;
+   height: 55px;
+   background-color: transparent;
+   border: none;
+   border-radius: 30px;
+   border: 2px solid gray;
+}
+.myCV a {
+   text-decoration: none;
+   font-size: 30px;
+   color: #666;
+}
+
 hr {
    width: 100%;
 }
