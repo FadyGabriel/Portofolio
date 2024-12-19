@@ -75,7 +75,7 @@ up.onclick = function () {
 
     window.onload = ChangeBodyBG;
     function ChangeBodyBG(){
-        let hexArray = ['9EABA2', '0B6477', '118AB2', '7B2CBF', '800F2F', '22577A', 'FEEAFA', '1df139'];
+        let hexArray = ['B8BEDD', 'DAB49D', '9C8988', 'FFBF69', '2EC4B6', 'CBF3F0', 'FEEAFA', '1df139'];
         let colorParts = [];
             colorParts.push(hexArray[Math.floor(Math.random() * hexArray.length)]);
         let finalColor = `#${colorParts}`;
