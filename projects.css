@@ -116,19 +116,6 @@ header div .one {
    -webkit-text-fill-color: #ddd;
 }
 
-header div .one::before {
-   content: "";
-   margin-right: 15px;
-   border: 20px solid #0075ff;
-   border-radius: 50%;
-}
-@media (max-width: 510px) {
-   header div .one::before {
-      display: none;
-   }
-}
-
-
 .my-projects {
    display: grid;
    gap: 25px;

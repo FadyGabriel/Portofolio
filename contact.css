@@ -114,18 +114,6 @@ header div .one {
    -webkit-text-fill-color: #ddd;
 }
 
-header div .one::before {
-   content: "";
-   margin-right: 15px;
-   border: 20px solid #0075ff;
-   border-radius: 50%;
-}
-@media (max-width: 510px) {
-   header div .one::before {
-      display: none;
-   }
-}
-
 .grid {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
@@ -177,15 +165,15 @@ header div .one::before {
 
 .test-1 {
    margin: 0px auto 50px;
-   width: 200px;
+   width: 125px;
    height: 45px;
    font-weight: bold;
    border-radius: 15px;
-   font-size: 30px;
+   font-size: 25px;
    text-align: center;
    text-decoration: none;
    color: #fff;
-   background-color: #ff5252;
+   background-color: #a30d0d;
    border: 2px solid black;
    box-shadow: 5px 5px 0px black;
    transition: all 0.5s ease;
@@ -193,15 +181,15 @@ header div .one::before {
 }
 #reset {
    margin: 0px auto 10px;
-   width: 200px;
+   width: 125px;
    height: 45px;
    font-weight: bold;
    border-radius: 15px;
-   font-size: 30px;
+   font-size: 25px;
    text-align: center;
    text-decoration: none;
    color: #fff;
-   background-color: #ff5252;
+   background-color: #a30d0d;
    border: 2px solid black;
    box-shadow: 5px 5px 0px black;
    transition: all 0.5s ease;
@@ -210,9 +198,9 @@ header div .one::before {
 .test-1:hover, 
 #reset:hover {
    background-color: #fff;
-   color: #ff5252;
-   border: 2px solid #ff5252;
-   box-shadow: 5px 5px 0px #ff5252;
+   color: #a30d0d;
+   border: 2px solid #a30d0d;
+   box-shadow: 5px 5px 0px #a30d0d;
 }
 .test-1:active,
 #reset:active {
