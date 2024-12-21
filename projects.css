@@ -106,11 +106,12 @@ header nav ul li a::before {
    background: black; 
 }
 header div .one {
+   font-family: 'Qwitcher Grypen';
    margin-left: 25px;
    text-decoration: none;
    position: relative;
    color: black;
-   font-size: 25px;
+   font-size: 60px;
    font-weight: bold;
    -webkit-text-stroke: 1px black;
    -webkit-text-fill-color: #ddd;
@@ -167,7 +168,7 @@ h1 {
       background-image: url('./My_Projects_photos/p1/5.png');
    }
 }
-.p2 {
+/* .p2 {
    animation: p2 11s linear infinite alternate;
 }
 @keyframes p2 {
@@ -183,7 +184,7 @@ h1 {
    100% {
       background-image: url('./My_Projects_photos/p2/4.png');
    }
-}
+} */
 .p3 {
    animation: p3 11s linear infinite alternate;
 }
