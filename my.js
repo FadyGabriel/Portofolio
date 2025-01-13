@@ -19,11 +19,12 @@ ligthBtn.addEventListener ("mouseout", event => {
 
 function darkMood() {
     document.body.style.backgroundColor = "#000000c7";
+    document.body.style.color = "white";
 }
 
 function ligthMood() {
     document.body.style.backgroundColor = "white";
-    document.body.style.color = "black"
+    document.body.style.color = "black";
 }
 
 let up = document.querySelector(".up");
@@ -82,5 +83,16 @@ up.onclick = function () {
         document.body.style.backgroundColor = finalColor;
     }
 
+    const allLinks = document.getElementsByTagName("a");
+    function whiteColor() {
+        for(let i=0; i<allLinks.length; i++) {
+            allLinks[i].style.color = "white";
+        }
+    }
+    function darkColor() {
+        for(let i=0; i<allLinks.length; i++) {
+            allLinks[i].style.color = "black";
+        }
+    }
 
 
